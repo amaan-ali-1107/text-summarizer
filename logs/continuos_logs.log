@@ -1,0 +1,7 @@
+[2025-08-24 08:38:34,895: INFO: main: stage Data Ingestion stage initiated]
+[2025-08-24 08:38:34,899: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-24 08:38:34,912: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-24 08:38:34,913: INFO: common: created directory at: artifacts]
+[2025-08-24 08:38:34,914: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-24 08:38:38,841: INFO: data_ingestion: File is downloaded]
+[2025-08-24 08:38:39,010: INFO: main: Stage Data Ingestion stage Completed]
