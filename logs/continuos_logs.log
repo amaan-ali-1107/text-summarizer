@@ -258,3 +258,58 @@ Traceback (most recent call last):
         gradient_accumulation_steps = params.gradient_accumulation_steps
     )
 TypeError: ModelTrainerConfig() takes no arguments
+[2025-08-26 05:08:27,819: INFO: main: stage Data Ingestion stage initiated]
+[2025-08-26 05:08:27,824: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-26 05:08:27,829: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-26 05:08:27,831: INFO: common: created directory at: artifacts]
+[2025-08-26 05:08:27,832: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-26 05:08:27,833: INFO: data_ingestion: File already exits]
+[2025-08-26 05:08:28,005: INFO: main: Stage Data Ingestion stage Completed]
+[2025-08-26 05:08:28,005: INFO: main: stage Data Transformation stage initiated]
+[2025-08-26 05:08:28,008: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-26 05:08:28,010: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-26 05:08:28,011: INFO: common: created directory at: artifacts]
+[2025-08-26 05:08:28,011: INFO: common: created directory at: artifacts/data_transformation]
+[2025-08-26 05:08:30,790: INFO: main: Stage Data Transformation stage Completed]
+[2025-08-26 05:08:30,791: INFO: main: stage Model Trainer stage initiated]
+[2025-08-26 05:08:30,794: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-26 05:08:30,797: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-26 05:08:30,798: INFO: common: created directory at: artifacts]
+[2025-08-26 05:08:30,799: INFO: common: created directory at: artifacts/model_trainer]
+[2025-08-26 05:08:30,799: ERROR: main: ModelTrainerConfig() takes no arguments]
+Traceback (most recent call last):
+  File "C:\Documents\python project\Text Summarization\main.py", line 34, in <module>
+    model_trainer_pipeline.initiate_model_trainer()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Documents\python project\Text Summarization\src\textSummarizer\pipeline\stage_3_model_trainer_pipeline.py", line 10, in initiate_model_trainer
+    model_trainer_config = config.get_model_trainer_config()
+  File "C:\Documents\python project\Text Summarization\src\textSummarizer\config\configuration.py", line 48, in get_model_trainer_config
+    model_trainer_config=ModelTrainerConfig(
+        root_dir=config.root_dir,
+    ...<10 lines>...
+        gradient_accumulation_steps = params.gradient_accumulation_steps
+    )
+TypeError: ModelTrainerConfig() takes no arguments
+[2025-08-26 05:09:48,470: INFO: main: stage Data Ingestion stage initiated]
+[2025-08-26 05:09:48,474: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-26 05:09:48,478: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-26 05:09:48,479: INFO: common: created directory at: artifacts]
+[2025-08-26 05:09:48,479: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-26 05:09:48,480: INFO: data_ingestion: File already exits]
+[2025-08-26 05:09:48,601: INFO: main: Stage Data Ingestion stage Completed]
+[2025-08-26 05:09:48,601: INFO: main: stage Data Transformation stage initiated]
+[2025-08-26 05:09:48,603: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-26 05:09:48,605: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-26 05:09:48,606: INFO: common: created directory at: artifacts]
+[2025-08-26 05:09:48,606: INFO: common: created directory at: artifacts/data_transformation]
+[2025-08-26 05:09:51,198: INFO: main: Stage Data Transformation stage Completed]
+[2025-08-26 05:09:51,199: INFO: main: *******************]
+[2025-08-26 05:09:51,199: INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2025-08-26 05:09:51,202: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-26 05:09:51,204: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-26 05:09:51,205: INFO: common: created directory at: artifacts]
+[2025-08-26 05:09:51,206: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-08-26 05:21:15,302: INFO: rouge_scorer: Using default tokenizer.]
+[2025-08-26 05:21:16,068: INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
