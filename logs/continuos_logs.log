@@ -18,3 +18,243 @@
 [2025-08-25 03:43:09,744: INFO: common: created directory at: artifacts]
 [2025-08-25 03:43:09,745: INFO: common: created directory at: artifacts/data_transformation]
 [2025-08-25 03:43:29,239: INFO: main: Stage Data Transformation stage Completed]
+[2025-08-25 04:10:35,506: INFO: main: stage Data Ingestion stage initiated]
+[2025-08-25 04:10:35,513: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-25 04:10:35,518: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-25 04:10:35,520: INFO: common: created directory at: artifacts]
+[2025-08-25 04:10:35,521: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-25 04:10:35,521: INFO: data_ingestion: File already exits]
+[2025-08-25 04:10:35,670: INFO: main: Stage Data Ingestion stage Completed]
+[2025-08-25 04:10:35,670: INFO: main: stage Data Transformation stage initiated]
+[2025-08-25 04:10:35,673: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-25 04:10:35,675: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-25 04:10:35,676: INFO: common: created directory at: artifacts]
+[2025-08-25 04:10:35,677: INFO: common: created directory at: artifacts/data_transformation]
+[2025-08-25 04:10:38,653: INFO: main: Stage Data Transformation stage Completed]
+[2025-08-25 04:10:38,653: INFO: main: stage Model Trainer stage initiated]
+[2025-08-25 04:10:38,657: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-25 04:10:38,659: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-25 04:10:38,661: INFO: common: created directory at: artifacts]
+[2025-08-25 04:10:38,661: ERROR: main: 'ConfigurationManager' object has no attribute 'params']
+Traceback (most recent call last):
+  File "C:\Documents\python project\Text Summarization\main.py", line 33, in <module>
+    model_trainer_pipeline.initiate_model_trainer()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Documents\python project\Text Summarization\src\textSummarizer\pipeline\stage_3_model_trainer_pipeline.py", line 10, in initiate_model_trainer
+    model_trainer_config = config.get_model_trainer_config()
+  File "C:\Documents\python project\Text Summarization\src\textSummarizer\config\configuration.py", line 44, in get_model_trainer_config
+    params=self.params.TrainingArguments
+           ^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'params'. Did you mean: 'paramss'?
+[2025-08-25 04:11:30,546: INFO: main: stage Data Ingestion stage initiated]
+[2025-08-25 04:11:30,549: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-25 04:11:30,572: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-25 04:11:30,573: INFO: common: created directory at: artifacts]
+[2025-08-25 04:11:30,573: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-25 04:11:30,574: INFO: data_ingestion: File already exits]
+[2025-08-25 04:11:30,697: INFO: main: Stage Data Ingestion stage Completed]
+[2025-08-25 04:11:30,698: INFO: main: stage Data Transformation stage initiated]
+[2025-08-25 04:11:30,700: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-25 04:11:30,702: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-25 04:11:30,703: INFO: common: created directory at: artifacts]
+[2025-08-25 04:11:30,703: INFO: common: created directory at: artifacts/data_transformation]
+[2025-08-25 04:11:33,655: INFO: main: Stage Data Transformation stage Completed]
+[2025-08-25 04:11:33,655: INFO: main: stage Model Trainer stage initiated]
+[2025-08-25 04:11:33,659: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-25 04:11:33,661: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-25 04:11:33,661: INFO: common: created directory at: artifacts]
+[2025-08-25 04:11:33,662: ERROR: main: 'ConfigurationManager' object has no attribute 'params']
+Traceback (most recent call last):
+  File "C:\Documents\python project\Text Summarization\main.py", line 33, in <module>
+    model_trainer_pipeline.initiate_model_trainer()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Documents\python project\Text Summarization\src\textSummarizer\pipeline\stage_3_model_trainer_pipeline.py", line 10, in initiate_model_trainer
+    model_trainer_config = config.get_model_trainer_config()
+  File "C:\Documents\python project\Text Summarization\src\textSummarizer\config\configuration.py", line 44, in get_model_trainer_config
+    params=self.params.TrainingArguments
+           ^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'params'. Did you mean: 'paramss'?
+[2025-08-25 04:14:02,224: INFO: main: stage Data Ingestion stage initiated]
+[2025-08-25 04:14:02,229: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-25 04:14:02,234: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-25 04:14:02,234: INFO: common: created directory at: artifacts]
+[2025-08-25 04:14:02,235: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-25 04:14:02,235: INFO: data_ingestion: File already exits]
+[2025-08-25 04:14:02,361: INFO: main: Stage Data Ingestion stage Completed]
+[2025-08-25 04:14:02,361: INFO: main: stage Data Transformation stage initiated]
+[2025-08-25 04:14:02,364: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-25 04:14:02,367: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-25 04:14:02,367: INFO: common: created directory at: artifacts]
+[2025-08-25 04:14:02,368: INFO: common: created directory at: artifacts/data_transformation]
+[2025-08-25 04:14:04,789: INFO: main: Stage Data Transformation stage Completed]
+[2025-08-25 04:14:04,789: INFO: main: stage Model Trainer stage initiated]
+[2025-08-25 04:14:04,792: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-25 04:14:04,795: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-25 04:14:04,795: INFO: common: created directory at: artifacts]
+[2025-08-25 04:14:04,798: INFO: common: created directory at: artifacts/model_trainer]
+[2025-08-25 04:14:04,799: ERROR: main: "'ConfigBox' object has no attribute 'evaluation_strategy'"]
+Traceback (most recent call last):
+  File "box\\box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'evaluation_strategy'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+  File "box\\box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'evaluation_strategy'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'evaluation_strategy'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'evaluation_strategy'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'evaluation_strategy'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+  File "box\\box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'evaluation_strategy'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'evaluation_strategy'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Documents\python project\Text Summarization\main.py", line 33, in <module>
+    model_trainer_pipeline.initiate_model_trainer()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Documents\python project\Text Summarization\src\textSummarizer\pipeline\stage_3_model_trainer_pipeline.py", line 10, in initiate_model_trainer
+    model_trainer_config = config.get_model_trainer_config()
+  File "C:\Documents\python project\Text Summarization\src\textSummarizer\config\configuration.py", line 57, in get_model_trainer_config
+    eval_strategy = params.evaluation_strategy,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "box\\config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'evaluation_strategy'"
+[2025-08-25 04:15:46,333: INFO: main: stage Data Ingestion stage initiated]
+[2025-08-25 04:15:46,337: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-25 04:15:46,339: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-25 04:15:46,340: INFO: common: created directory at: artifacts]
+[2025-08-25 04:15:46,340: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-25 04:15:46,340: INFO: data_ingestion: File already exits]
+[2025-08-25 04:15:46,457: INFO: main: Stage Data Ingestion stage Completed]
+[2025-08-25 04:15:46,457: INFO: main: stage Data Transformation stage initiated]
+[2025-08-25 04:15:46,460: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-25 04:15:46,461: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-25 04:15:46,462: INFO: common: created directory at: artifacts]
+[2025-08-25 04:15:46,462: INFO: common: created directory at: artifacts/data_transformation]
+[2025-08-25 04:15:48,688: INFO: main: Stage Data Transformation stage Completed]
+[2025-08-25 04:15:48,689: INFO: main: stage Model Trainer stage initiated]
+[2025-08-25 04:15:48,692: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-25 04:15:48,694: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-25 04:15:48,695: INFO: common: created directory at: artifacts]
+[2025-08-25 04:15:48,696: INFO: common: created directory at: artifacts/model_trainer]
+[2025-08-25 04:15:48,696: ERROR: main: "'ConfigBox' object has no attribute 'evaluation_strategy'"]
+Traceback (most recent call last):
+  File "box\\box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'evaluation_strategy'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+  File "box\\box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'evaluation_strategy'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'evaluation_strategy'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'evaluation_strategy'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'evaluation_strategy'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+  File "box\\box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'evaluation_strategy'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'evaluation_strategy'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Documents\python project\Text Summarization\main.py", line 33, in <module>
+    model_trainer_pipeline.initiate_model_trainer()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Documents\python project\Text Summarization\src\textSummarizer\pipeline\stage_3_model_trainer_pipeline.py", line 10, in initiate_model_trainer
+    model_trainer_config = config.get_model_trainer_config()
+  File "C:\Documents\python project\Text Summarization\src\textSummarizer\config\configuration.py", line 58, in get_model_trainer_config
+    eval_steps = params.evaluation_strategy,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "box\\config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'evaluation_strategy'"
+[2025-08-25 04:16:48,345: INFO: main: stage Data Ingestion stage initiated]
+[2025-08-25 04:16:48,349: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-25 04:16:48,353: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-25 04:16:48,353: INFO: common: created directory at: artifacts]
+[2025-08-25 04:16:48,354: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-25 04:16:48,355: INFO: data_ingestion: File already exits]
+[2025-08-25 04:16:48,474: INFO: main: Stage Data Ingestion stage Completed]
+[2025-08-25 04:16:48,475: INFO: main: stage Data Transformation stage initiated]
+[2025-08-25 04:16:48,477: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-25 04:16:48,480: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-25 04:16:48,481: INFO: common: created directory at: artifacts]
+[2025-08-25 04:16:48,482: INFO: common: created directory at: artifacts/data_transformation]
+[2025-08-25 04:16:50,786: INFO: main: Stage Data Transformation stage Completed]
+[2025-08-25 04:16:50,786: INFO: main: stage Model Trainer stage initiated]
+[2025-08-25 04:16:50,789: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-25 04:16:50,792: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-25 04:16:50,793: INFO: common: created directory at: artifacts]
+[2025-08-25 04:16:50,793: INFO: common: created directory at: artifacts/model_trainer]
+[2025-08-25 04:16:50,794: ERROR: main: ModelTrainerConfig() takes no arguments]
+Traceback (most recent call last):
+  File "C:\Documents\python project\Text Summarization\main.py", line 33, in <module>
+    model_trainer_pipeline.initiate_model_trainer()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Documents\python project\Text Summarization\src\textSummarizer\pipeline\stage_3_model_trainer_pipeline.py", line 10, in initiate_model_trainer
+    model_trainer_config = config.get_model_trainer_config()
+  File "C:\Documents\python project\Text Summarization\src\textSummarizer\config\configuration.py", line 48, in get_model_trainer_config
+    model_trainer_config=ModelTrainerConfig(
+        root_dir=config.root_dir,
+    ...<10 lines>...
+        gradient_accumulation_steps = params.gradient_accumulation_steps
+    )
+TypeError: ModelTrainerConfig() takes no arguments
