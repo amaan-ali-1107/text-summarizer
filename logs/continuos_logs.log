@@ -423,3 +423,7 @@ pip install python-multipart
 [2025-08-28 01:08:57,624: INFO: common: yaml file: params.yaml loaded successfully]
 [2025-08-28 01:08:57,625: INFO: common: created directory at: artifacts]
 [2025-08-28 01:08:57,627: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-08-28 02:02:16,311: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-28 02:02:16,316: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-28 02:02:16,317: INFO: common: created directory at: artifacts]
+[2025-08-28 02:02:16,319: INFO: common: created directory at: artifacts/model_evaluation]
