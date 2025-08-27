@@ -23,11 +23,8 @@ list_of_files=[
     "params.yaml",
     "app.py",
     "main.py",
-    "Dockerfile",
     "requirements.txt",
     "setup.py",
-    "research/research.ipynb"
-
 ]
 
 for filepath in list_of_files:
