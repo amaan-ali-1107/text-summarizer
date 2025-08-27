@@ -1,7 +1,5 @@
-transformers>=4.35.0
+transformers
 transformers[sentencepiece]
-safetensors
-protobuf==3.20.3
 datasets
 sacrebleu 
 rouge_score 
@@ -11,7 +9,7 @@ nltk
 tqdm
 PyYAML
 matplotlib
-torch>==2.0.0
+torch
 notebook
 boto3
 mypy-boto3-s3
@@ -22,5 +20,3 @@ uvicorn
 Jinja2
 evaluate
 python-multipart
-numpy
-pydantic>=1.10,<2.0
