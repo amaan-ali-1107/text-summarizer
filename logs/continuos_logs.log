@@ -448,3 +448,7 @@ pip install python-multipart
 [2025-08-29 13:45:53,120: INFO: common: yaml file: params.yaml loaded successfully]
 [2025-08-29 13:45:53,121: INFO: common: created directory at: artifacts]
 [2025-08-29 13:45:53,122: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-08-29 20:33:56,193: WARNING: file_download: Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`]
+[2025-08-29 20:46:13,209: WARNING: file_download: Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`]
+[2025-08-29 20:46:51,609: WARNING: file_download: Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`]
+[2025-08-29 20:49:50,145: WARNING: file_download: Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`]
