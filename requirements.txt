@@ -1,13 +1,9 @@
 fastapi
 uvicorn[standard]
 gunicorn
-importlib-metadeta
 Jinja2
 evaluate
-python-multipart
-transformers
-box
+python-box
 ensure
-PyYAML
-pydantic
-pathlib
+transformers
+python-multipart

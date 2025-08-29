@@ -431,3 +431,20 @@ pip install python-multipart
 [2025-08-28 03:42:59,039: INFO: common: yaml file: params.yaml loaded successfully]
 [2025-08-28 03:42:59,041: INFO: common: created directory at: artifacts]
 [2025-08-28 03:42:59,041: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-08-29 03:30:07,364: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-29 03:30:07,377: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-29 03:30:07,378: INFO: common: created directory at: artifacts]
+[2025-08-29 03:30:07,379: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-08-29 13:44:39,243: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-29 13:44:39,246: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-29 13:44:39,247: INFO: common: created directory at: artifacts]
+[2025-08-29 13:44:39,247: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-08-29 13:44:39,250: ERROR: utils: Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+]
+[2025-08-29 13:45:53,118: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-29 13:45:53,120: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-29 13:45:53,121: INFO: common: created directory at: artifacts]
+[2025-08-29 13:45:53,122: INFO: common: created directory at: artifacts/model_evaluation]
