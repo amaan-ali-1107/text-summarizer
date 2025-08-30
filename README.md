@@ -14,10 +14,6 @@ It takes a large block of text as input through a simple web form and returns a 
 
 - FastAPI (Web App)
 
-- Azure App Service (Deployment)
-
-- GitHub (CI/CD Integration) 
-
 ## Screenshots:
 
 ### Home page:
