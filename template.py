@@ -24,7 +24,6 @@ list_of_files=[
     "app.py",
     "main.py",
     "requirements.txt",
-    "setup.py",
 ]
 
 for filepath in list_of_files:

@@ -4,25 +4,19 @@ from fastapi.responses import HTMLResponse
 from pydantic import BaseModel
 import uvicorn
 
-# Import pipeline
 from src.textSummarizer.pipeline.prediction_pipeline import PredictionPipeline
 
 app = FastAPI()
 
-# Setup Jinja2 templates
 templates = Jinja2Templates(directory="template")
 
-# Initialize once
 pipeline = PredictionPipeline()
 
-# Pre-load templates on startup
 @app.on_event("startup")
 async def startup_event():
-    # Pre-compile the summary template
     templates.get_template("summary.html")
     print("Templates pre-loaded!")
 
-# Pydantic model for JSON requests
 class TextRequest(BaseModel):
     text: str
 
